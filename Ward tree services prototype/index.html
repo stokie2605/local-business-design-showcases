@@ -1,0 +1,261 @@
+﻿<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ward Tree Services | Expert Arborists & Tree Surgeons</title>
+    <meta
+      name="description"
+      content="Ward Tree Services provides expert arborist work, tree surgery, felling, pruning, stump grinding and site clearance across Staffordshire and the Cheshire border."
+    />
+    <script>
+      (function () {
+        const storedTheme = localStorage.getItem("theme");
+        if (storedTheme === "dark") {
+          document.documentElement.classList.add("dark");
+        } else {
+          document.documentElement.classList.remove("dark");
+        }
+      })();
+
+      function toggleTheme() {
+        const root = document.documentElement;
+        const nextTheme = root.classList.contains("dark") ? "light" : "dark";
+        root.classList.toggle("dark", nextTheme === "dark");
+        localStorage.setItem("theme", nextTheme);
+      }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "ui-sans-serif", "system-ui", "Segoe UI", "Arial", "sans-serif"],
+              serif: ["Georgia", "Cambria", "Times New Roman", "serif"],
+            },
+            boxShadow: {
+              editorial: "0 30px 80px rgba(41, 37, 36, 0.16)",
+              night: "0 30px 90px rgba(0, 0, 0, 0.45)",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-stone-50 text-stone-900 antialiased transition-colors duration-500 dark:bg-zinc-950 dark:text-zinc-50">
+    <div class="min-h-screen overflow-hidden">
+      <header class="sticky top-0 z-50 border-b border-stone-200/80 bg-stone-50/95 backdrop-blur-xl transition-colors duration-500 dark:border-white/10 dark:bg-zinc-950/95">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-5 sm:px-8">
+          <a href="#top" class="text-sm font-black uppercase tracking-[0.2em] text-stone-950 transition-colors dark:text-white">
+            WARD TREE SERVICES <span class="hidden text-orange-700 dark:text-emerald-400 sm:inline">| EST. 2012</span>
+          </a>
+
+          <div class="hidden items-center gap-8 text-sm font-bold uppercase tracking-[0.16em] text-stone-600 transition-colors dark:text-zinc-100 lg:flex">
+            <a href="#work" class="transition hover:text-orange-700 dark:hover:text-emerald-400">Work</a>
+            <a href="#estimate" class="transition hover:text-orange-700 dark:hover:text-emerald-400">Estimate</a>
+            <a href="#coverage" class="transition hover:text-orange-700 dark:hover:text-emerald-400">Coverage</a>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <a href="tel:+447495060647" class="hidden border-b-2 border-orange-600 pb-1 text-sm font-black uppercase tracking-[0.14em] text-orange-700 transition hover:text-stone-950 dark:border-emerald-500 dark:text-emerald-400 dark:hover:text-white sm:inline-block">
+              07495 060647
+            </a>
+            <button
+              type="button"
+              onclick="toggleTheme()"
+              class="group grid h-11 w-11 place-items-center rounded-full border border-stone-300 bg-white text-stone-900 shadow-sm transition duration-300 hover:border-orange-600 hover:text-orange-700 dark:border-emerald-500/50 dark:bg-zinc-900 dark:text-emerald-300 dark:hover:border-emerald-400 dark:hover:text-white"
+              aria-label="Toggle light and dark mode" title="Toggle light/dark mode"
+            >
+              <svg class="h-5 w-5 transition duration-300 dark:hidden" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M21 12.8A8.5 8.5 0 0 1 11.2 3a7 7 0 1 0 9.8 9.8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg class="hidden h-5 w-5 transition duration-300 dark:block" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 4V2m0 20v-2m8-8h2M2 12h2m13.66-5.66 1.41-1.41M4.93 19.07l1.41-1.41m0-11.32L4.93 4.93m14.14 14.14-1.41-1.41" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2" />
+              </svg>
+            </button>
+          </div>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="mx-auto grid min-h-[calc(100vh-84px)] max-w-7xl grid-cols-1 lg:grid-cols-2">
+          <div class="flex items-center px-5 py-20 sm:px-8 lg:pr-16">
+            <div class="max-w-2xl">
+              <p class="mb-8 text-xs font-black uppercase tracking-[0.3em] text-orange-700 transition-colors dark:text-emerald-400">Staffordshire tree surgery</p>
+              <h1 class="font-serif text-6xl leading-[0.95] tracking-normal text-stone-950 transition-colors dark:text-white sm:text-7xl lg:text-8xl">
+                Expert Arborists &amp; Tree Surgeons Based in Stafford.
+              </h1>
+              <p class="mt-8 max-w-xl text-lg leading-8 text-stone-600 transition-colors dark:text-zinc-300">
+                Ward Tree Services delivers careful, controlled arboriculture for homes, estates, farms and trade sites. From complex removals to crown work and clearance, every job is planned around safety, access and a clean finish.
+              </p>
+              <div class="mt-10 flex flex-col gap-4 sm:flex-row">
+                <a href="#estimate" class="inline-flex items-center justify-center bg-orange-600 px-7 py-4 text-sm font-black uppercase tracking-[0.18em] text-white transition hover:bg-orange-700 dark:bg-emerald-600 dark:hover:bg-emerald-700">
+                  Request Estimate
+                </a>
+                <a href="#work" class="inline-flex items-center justify-center border border-stone-300 px-7 py-4 text-sm font-black uppercase tracking-[0.18em] text-stone-950 transition hover:border-orange-600 hover:text-orange-700 dark:border-white/15 dark:text-white dark:hover:border-emerald-500 dark:hover:text-emerald-400">
+                  View Capabilities
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative min-h-[560px] overflow-hidden lg:min-h-[calc(100vh-84px)]">
+            <img
+              src="images/hero-arborist.jpg"
+              alt="Ward Tree Services arborist working on site"
+              class="absolute inset-0 h-full w-full object-cover"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-stone-950/40 via-transparent to-transparent dark:from-zinc-950/65"></div>
+            <div class="absolute bottom-8 left-8 right-8 max-w-sm bg-stone-50/92 p-6 shadow-editorial backdrop-blur transition-colors dark:bg-zinc-950/88 dark:shadow-night">
+              <p class="text-xs font-black uppercase tracking-[0.22em] text-orange-700 dark:text-emerald-400">Fully planned access</p>
+              <p class="mt-3 text-2xl font-black leading-tight text-stone-950 dark:text-white">Rigging, reduction and clearance with a site-first method.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="work" class="border-y border-stone-200 bg-white py-20 transition-colors duration-500 dark:border-white/10 dark:bg-zinc-900 sm:py-28">
+          <div class="mx-auto max-w-7xl px-5 sm:px-8">
+            <div class="grid gap-10 lg:grid-cols-[0.72fr_1.28fr] lg:items-end">
+              <div>
+                <p class="text-xs font-black uppercase tracking-[0.3em] text-orange-700 dark:text-emerald-400">Project highlights</p>
+                <h2 class="mt-5 font-serif text-5xl leading-none text-stone-950 dark:text-white sm:text-6xl">Work that looks composed because the process is controlled.</h2>
+              </div>
+              <p class="max-w-2xl text-lg leading-8 text-stone-600 dark:text-zinc-300 lg:justify-self-end">
+                The best trade sites do not just list services. They show the work in a way that helps customers understand risk, method and outcome before they call.
+              </p>
+            </div>
+
+            <div class="mt-16 grid gap-8">
+              <article class="grid overflow-hidden bg-stone-100 shadow-editorial transition-colors dark:bg-zinc-950 dark:shadow-night lg:grid-cols-[1.15fr_0.85fr]">
+                <div class="min-h-[420px] overflow-hidden lg:min-h-[520px]">
+                  <img
+                    src="images/felling.jpg"
+                    alt="Ward Tree Services chainsaw and felling work"
+                    class="h-full w-full object-cover transition duration-700 hover:scale-105"
+                  />
+                </div>
+                <div class="flex items-center p-8 sm:p-12">
+                  <div>
+                    <p class="text-xs font-black uppercase tracking-[0.28em] text-orange-700 dark:text-emerald-400">Controlled felling</p>
+                    <h3 class="mt-5 font-serif text-4xl leading-tight text-stone-950 dark:text-white sm:text-5xl">Precision cuts for difficult timber and tight-access sites.</h3>
+                    <p class="mt-6 text-lg leading-8 text-stone-600 dark:text-zinc-300">Sectional removal, directional felling and careful dismantling for roadside hazards, gardens, estates and commercial plots.</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="grid overflow-hidden bg-orange-700 text-white shadow-editorial transition-colors dark:bg-emerald-900 dark:shadow-night lg:ml-24 lg:grid-cols-[0.82fr_1.18fr]">
+                <div class="order-2 flex items-center p-8 sm:p-12 lg:order-1">
+                  <div>
+                    <p class="text-xs font-black uppercase tracking-[0.28em] text-orange-100 dark:text-emerald-200">Clearance &amp; grinding</p>
+                    <h3 class="mt-5 font-serif text-4xl leading-tight sm:text-5xl">Tidy clearance that leaves the ground ready for what comes next.</h3>
+                    <p class="mt-6 text-lg leading-8 text-white/82 dark:text-emerald-50/85">Stumps, brash, overgrowth and garden waste are managed with a practical finish for landscaping, fencing or the next stage of outdoor work.</p>
+                  </div>
+                </div>
+                <div class="order-1 min-h-[420px] overflow-hidden lg:order-2 lg:min-h-[520px]">
+                  <img
+                    src="images/stump-grinding.jpg"
+                    alt="Ward Tree Services stump grinding and site clearance work"
+                    class="h-full w-full object-cover transition duration-700 hover:scale-105"
+                  />
+                </div>
+              </article>
+
+              <article class="grid overflow-hidden border border-stone-200 bg-stone-50 transition-colors dark:border-white/10 dark:bg-zinc-950 lg:mr-24 lg:grid-cols-[1fr_1fr]">
+                <div class="flex min-h-[360px] items-end bg-[linear-gradient(135deg,rgba(194,65,12,0.84),rgba(41,37,36,0.76)),url('images/hero-arborist.jpg')] bg-cover bg-center p-8 text-white transition dark:bg-[linear-gradient(135deg,rgba(6,78,59,0.9),rgba(9,9,11,0.86)),url('images/hero-arborist.jpg')] sm:p-12">
+                  <div>
+                    <p class="text-xs font-black uppercase tracking-[0.28em] text-orange-100 dark:text-emerald-200">Crown work</p>
+                    <h3 class="mt-5 font-serif text-4xl leading-tight sm:text-5xl">Reduction, pruning and canopy care with a lighter touch.</h3>
+                  </div>
+                </div>
+                <div class="flex items-center p-8 sm:p-12">
+                  <p class="text-xl leading-9 text-stone-700 dark:text-zinc-300">
+                    Crown reductions, deadwood removal and clearance pruning are shaped around the tree, the structure nearby and the future health of the canopy.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="estimate" class="bg-stone-50 py-20 transition-colors duration-500 dark:bg-zinc-950 sm:py-28">
+          <div class="mx-auto max-w-6xl px-5 sm:px-8">
+            <div class="bg-stone-100 p-6 shadow-editorial transition-colors dark:bg-zinc-900 dark:shadow-night sm:p-10 lg:p-14">
+              <div class="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
+                <div>
+                  <p class="text-xs font-black uppercase tracking-[0.3em] text-orange-700 dark:text-emerald-400">Request an estimate</p>
+                  <h2 class="mt-5 font-serif text-5xl leading-none text-stone-950 dark:text-white">A cleaner way to price the job.</h2>
+                  <p class="mt-6 text-lg leading-8 text-stone-600 dark:text-zinc-300">Share the essentials and Ward Tree Services will come back with the right next step. For emergency obstruction or storm damage, call directly.</p>
+                  <a href="tel:+447495060647" class="mt-8 inline-block text-3xl font-black text-orange-700 transition hover:text-orange-800 dark:text-emerald-400 dark:hover:text-emerald-300">07495 060647</a>
+                </div>
+
+                <form class="grid gap-5" action="mailto:josh@wardtreeservices.co.uk" method="post" enctype="text/plain">
+                  <div class="grid gap-5 sm:grid-cols-2">
+                    <label class="block">
+                      <span class="mb-2 block text-sm font-black text-stone-800 dark:text-zinc-200">Name</span>
+                      <input name="Name" required autocomplete="name" class="w-full border border-stone-300 bg-white px-4 py-4 text-stone-950 outline-none transition placeholder:text-stone-400 focus:border-orange-600 focus:ring-2 focus:ring-orange-600/15 dark:border-white/10 dark:bg-zinc-950 dark:text-white dark:placeholder:text-zinc-500 dark:focus:border-emerald-500 dark:focus:ring-emerald-500/20" placeholder="Your name" />
+                    </label>
+                    <label class="block">
+                      <span class="mb-2 block text-sm font-black text-stone-800 dark:text-zinc-200">Phone Number</span>
+                      <input name="Phone Number" required autocomplete="tel" inputmode="tel" class="w-full border border-stone-300 bg-white px-4 py-4 text-stone-950 outline-none transition placeholder:text-stone-400 focus:border-orange-600 focus:ring-2 focus:ring-orange-600/15 dark:border-white/10 dark:bg-zinc-950 dark:text-white dark:placeholder:text-zinc-500 dark:focus:border-emerald-500 dark:focus:ring-emerald-500/20" placeholder="Best number" />
+                    </label>
+                  </div>
+                  <label class="block">
+                    <span class="mb-2 block text-sm font-black text-stone-800 dark:text-zinc-200">Postcode / Location</span>
+                    <input name="Postcode or Location" required autocomplete="postal-code" class="w-full border border-stone-300 bg-white px-4 py-4 text-stone-950 outline-none transition placeholder:text-stone-400 focus:border-orange-600 focus:ring-2 focus:ring-orange-600/15 dark:border-white/10 dark:bg-zinc-950 dark:text-white dark:placeholder:text-zinc-500 dark:focus:border-emerald-500 dark:focus:ring-emerald-500/20" placeholder="Stafford, Cheshire border, or postcode" />
+                  </label>
+                  <label class="block">
+                    <span class="mb-2 block text-sm font-black text-stone-800 dark:text-zinc-200">Work Required</span>
+                    <select name="Work Required" required class="w-full border border-stone-300 bg-white px-4 py-4 text-stone-950 outline-none transition focus:border-orange-600 focus:ring-2 focus:ring-orange-600/15 dark:border-white/10 dark:bg-zinc-950 dark:text-white dark:focus:border-emerald-500 dark:focus:ring-emerald-500/20">
+                      <option value="">Select the closest match</option>
+                      <option>Tree Removal & Felling</option>
+                      <option>Crown Reduction & Pruning</option>
+                      <option>Stump Grinding & Site Clearance</option>
+                      <option>Emergency Storm Damage</option>
+                      <option>Commercial Site Visit</option>
+                    </select>
+                  </label>
+                  <label class="block">
+                    <span class="mb-2 block text-sm font-black text-stone-800 dark:text-zinc-200">Brief Job Notes</span>
+                    <textarea name="Job Notes" rows="4" class="w-full border border-stone-300 bg-white px-4 py-4 text-stone-950 outline-none transition placeholder:text-stone-400 focus:border-orange-600 focus:ring-2 focus:ring-orange-600/15 dark:border-white/10 dark:bg-zinc-950 dark:text-white dark:placeholder:text-zinc-500 dark:focus:border-emerald-500 dark:focus:ring-emerald-500/20" placeholder="Tree size, access, urgency, nearby buildings or roads"></textarea>
+                  </label>
+                  <button type="submit" class="bg-orange-600 px-7 py-4 text-sm font-black uppercase tracking-[0.18em] text-white transition hover:bg-orange-700 dark:bg-emerald-600 dark:hover:bg-emerald-700">
+                    Send Estimate Request
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="coverage" class="border-t border-stone-200 bg-white transition-colors dark:border-white/10 dark:bg-zinc-950">
+        <div class="mx-auto grid max-w-7xl gap-10 px-5 py-12 sm:px-8 lg:grid-cols-3">
+          <div>
+            <p class="text-sm font-black uppercase tracking-[0.22em] text-stone-950 dark:text-white">WARD TREE SERVICES | EST. 2012</p>
+            <p class="mt-4 max-w-sm leading-7 text-stone-600 dark:text-zinc-400">Professional arborist and tree surgery work for Staffordshire, Cheshire border communities and nearby rural sites.</p>
+          </div>
+          <div>
+            <p class="font-black uppercase tracking-[0.18em] text-orange-700 dark:text-emerald-400">Working Hours</p>
+            <ul class="mt-4 space-y-2 text-stone-600 dark:text-zinc-400">
+              <li>Monday-Friday: 7:30am-6:00pm</li>
+              <li>Saturday: 8:00am-3:00pm</li>
+              <li>Emergency clearance by direct call</li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-black uppercase tracking-[0.18em] text-orange-700 dark:text-emerald-400">Contact</p>
+            <div class="mt-4 grid gap-2 text-stone-600 dark:text-zinc-400">
+              <a class="hover:text-orange-700 dark:hover:text-emerald-400" href="tel:+447495060647">07495 060647</a>
+              <a class="hover:text-orange-700 dark:hover:text-emerald-400" href="mailto:josh@wardtreeservices.co.uk">josh@wardtreeservices.co.uk</a>
+              <a class="hover:text-orange-700 dark:hover:text-emerald-400" href="#estimate">Request an estimate online</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+
