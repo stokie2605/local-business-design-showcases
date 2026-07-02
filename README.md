@@ -8,17 +8,29 @@ A collection of high-end, mobile-first single-page web prototypes designed to sh
 **Concept:** A premium, dark-themed automotive portal designed for independent specialists.
 **Key Features:** Built-in vehicle registration lookup booking interface, rapid tap-to-call integration, and performance-optimized layouts.
 
-### Preview
-![Grease Monkey Mechanics Showcase](screenshots/greasemonkey.png)
+### Previews
+<p align="left">
+  <img src="screenshots/website graesy monkeys.png" height="400" alt="Grease Monkey Desktop Concept" />
+  <img src="screenshots/mobile greasy monkey.png" height="400" alt="Grease Monkey Mobile Concept" />
+</p>
 
 ---
 
 ## 2. Ward Tree Services
-**Concept:** A rugged, high-contrast elite arborist showcase utilizing vibrant orange accents.
+**Concept:** A rugged, high-contrast elite arborist showcase utilizing vibrant orange accents and responsive theme state switches.
 **Key Features:** Custom client-side Light/Dark mode state persistence (localStorage), rapid emergency response layout, and a lightweight intake matrix.
 
-### Preview
-![Ward Tree Services Showcase](screenshots/ward.png)
+### Light Mode
+<p align="left">
+  <img src="screenshots/websit ward light mode.png" height="350" alt="Ward Tree Light Desktop" />
+  <img src="screenshots/mobile ward light mode.png" height="350" alt="Ward Tree Light Mobile" />
+</p>
+
+### Dark Mode (Emergency UI Optimization)
+<p align="left">
+  <img src="screenshots/website ward dark mode.png" height="350" alt="Ward Tree Dark Desktop" />
+  <img src="screenshots/mobile dark mode.png" height="350" alt="Ward Tree Dark Mobile" />
+</p>
 
 ---
 
