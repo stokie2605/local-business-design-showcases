@@ -1,2 +1,4 @@
-﻿Keys/
-
+Keys/
+node_modules/
+dist/
+.DS_Store
