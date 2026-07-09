@@ -5,6 +5,7 @@ A collection of mobile-first, static-compiled frontend UI layouts built strictly
 ---
 
 ## 1. Automotive Diagnostics Interface
+* **Folder:** [`Greasemonkey prototype`](./Greasemonkey%20prototype)
 * **Concept:** A dark-themed diagnostic panel layout designed to test compact data layouts on mobile screens.
 * **Key Features:** Built-in mockup vehicle registration lookup, quick-tap contact simulation, and high-performance loading parameters.
 
@@ -17,6 +18,7 @@ A collection of mobile-first, static-compiled frontend UI layouts built strictly
 ---
 
 ## 2. Outdoor Response Interface
+* **Folder:** [`Ward tree services prototype`](./Ward%20tree%20services%20prototype)
 * **Concept:** A high-contrast utility layout utilizing vibrant accents and responsive theme state overrides.
 * **Key Features:** Custom client-side Light/Dark mode state persistence (localStorage) and a rapid status dashboard.
 
@@ -29,12 +31,14 @@ A collection of mobile-first, static-compiled frontend UI layouts built strictly
 ---
 
 ## 3. Bespoke Product Gallery Interface
+* **Folder:** [`Bespoke product gallery prototype`](./Bespoke%20product%20gallery%20prototype)
 * **Concept:** A minimal, luxury editorial concept layout exploring asymmetry and typographic whitespace.
 * **Key Features:** Serif-focused typography scaling and quiet margins designed for portfolio presentation.
 
 ---
 
 ## 4. Community Access Interface
+* **Folder:** [`Community access prototype`](./Community%20access%20prototype)
 * **Concept:** An accessible charity showcase layout focusing on semantic elements and keyboard-navigable structures.
 * **Key Features:** WAI-ARIA focus indicators and high contrast visibility compliance.
 
