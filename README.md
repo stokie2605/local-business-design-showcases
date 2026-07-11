@@ -11,9 +11,9 @@
 ## 🎥 Visual Showcases
 
 ### Ward Clinic Theme (Light / Dark Mode)
-<img src="screenshots/websit ward light mode.png" width="340" alt="Clinic Desktop Light Mode" /> <img src="screenshots/website ward dark mode.png" width="340" alt="Clinic Desktop Dark Mode" />
-<img src="screenshots/mobile ward light mode.png" width="160" alt="Clinic Mobile Light Mode" /> <img src="screenshots/mobile dark mode.png" width="160" alt="Clinic Mobile Dark Mode" />
+<img src="screenshots/websit ward light mode.png" width="270" alt="Clinic Desktop Light Mode" /> <img src="screenshots/website ward dark mode.png" width="270" alt="Clinic Desktop Dark Mode" />
+<img src="screenshots/mobile ward light mode.png" width="110" alt="Clinic Mobile Light Mode" /> <img src="screenshots/mobile dark mode.png" width="110" alt="Clinic Mobile Dark Mode" />
 
 ### Greasy Monkeys Automotive
-<img src="screenshots/website graesy monkeys.png" width="340" alt="Automotive Desktop Layout" /> <img src="screenshots/mobile greasy monkey.png" width="160" alt="Automotive Mobile Layout" />
+<img src="screenshots/website graesy monkeys.png" width="270" alt="Automotive Desktop Layout" /> <img src="screenshots/mobile greasy monkey.png" width="110" alt="Automotive Mobile Layout" />
 
