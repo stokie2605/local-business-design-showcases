@@ -17,3 +17,10 @@
 ### Greasy Monkeys Automotive
 <img src="screenshots/website graesy monkeys.png" width="270" alt="Automotive Desktop Layout" /> <img src="screenshots/mobile greasy monkey.png" width="110" alt="Automotive Mobile Layout" />
 
+
+
+## Recent Architectural Upgrades
+- **Structural Hygiene:** Reorganized the repository into distinct `src/`, `backend/`, and `tests/` directories.
+- **Security Enhancements:** Implemented constant-time cryptographic token verification to prevent timing attacks.
+- **Database Schema Upgrades:** Refactored primitive types into native data structures (e.g., Dates and Times) for robust ORM integration.
+- **Code Hygiene:** Eradicated dead code, legacy logs, and enforced strict linting/testing standards.
